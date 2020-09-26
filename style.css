@@ -1,0 +1,80 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #5096f1;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+}
+
+h1{
+    justify-content: center;
+    color: white;    
+    font-weight: normal;
+    margin-top: 1rem;
+    margin-left: 35rem;
+}
+
+.head{
+    display: flex;
+    width: 100%;
+    background-color:rgb(6, 2, 248); ;
+}
+
+.add{
+    cursor: pointer;
+    background-color: rgb(59, 230, 88);
+    border-radius: 3px;
+    border: none;
+    color: white;
+    padding: 0.5rem 1rem;
+    position: fixed;
+    top: 2rem;
+    right: 2rem;
+}
+
+.note {
+    background-color: rgb(184, 235, 228);
+    margin: 20px;
+    height: 400px;
+    width: 400px;
+}
+
+.note .tools{
+    background-color: rgb(59, 230, 88);
+    display: flex;
+    justify-content: flex-end;
+    padding: 0.5rem;
+}
+
+.note .tools button{
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    font-size: 1rem;
+    margin-left: 00.5rem;
+}
+
+.note .main{
+    background-color: rgb(184, 235, 228);
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+}
+
+.note textarea{
+    font-family: inherit;
+    font-size: 1.2rem;
+    outline: none;
+    border: none;
+    height: 100%;
+    width: 100%;
+}
+
+.note .hidden{
+    display: none;
+}
+
